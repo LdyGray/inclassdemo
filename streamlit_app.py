@@ -12,7 +12,7 @@ title = st.text_input("Prompt", "What is Barcelona?")
 st.write("Barcelona is", title)
 
 
-os.environ["OPENAI_API_KEY"] = st.secrets["OpenAIkey"]
+os.environ["OPENAI_API_KEY"] = st.secrets["MyOpenAIkey"]
 
 ### OpenAI stuff
 client = OpenAI()
